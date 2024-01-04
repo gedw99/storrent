@@ -77,7 +77,6 @@ data-clean: # clean data folder
 data-bootstrap: data-init # create data
 	cp $(DATA_EXAMPLE) $(DATA)
 
-	# TODO: cp in certs...Gen with mkcert.
 
 run-h: # run to show help
 	$(BIN) -h

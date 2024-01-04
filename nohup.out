@@ -1,0 +1,41 @@
+2023/12/21 19:49:26 Couldn't determine physical memory: cannot compute physical memory on this platform
+STorrent 0.0 by Juliusz Chroboczek
+flag provided but not defined: -data
+Usage of /Users/apple/workspace/go/src/github.com/gedw99/gio-htmx/exp/video/galene/storrent/storrent/.bin/storrent:
+  -cpuprofile filename
+    	CPU profile filename
+  -debug
+    	Log all BitTorrent messages
+  -dht filename
+    	DHT bootstrap filename (default "/Users/apple/Library/Application Support/storrent/dht.dat")
+  -dht-passive
+    	Don't perform DHT announces
+  -force-encryption
+    	Force encryption
+  -http address
+    	Web server address (default "[::1]:8088")
+  -mem bytes
+    	Target memory usage in bytes (default 1073741824)
+  -memprofile filename
+    	Memory profile filename
+  -mountpoint mountpoint
+    	FUSE mountpoint
+  -mutexprofile filename
+    	Mutex profile filename
+  -port port
+    	TCP and UDP port used for BitTorrent and DHT traffic (default 23222)
+  -portmap protocol
+    	NAT port mappping protocol (natpmp, upnp, auto, or off) (default "auto")
+  -prefer-encryption
+    	Prefer encrytion (default true)
+  -prefetch-rate rate
+    	Prefetch rate in bytes per second (default 786432)
+  -proxy URL
+    	URL of a proxy to use for BitTorrent and tracker traffic.
+    	For tor, use "socks5://127.0.0.1:9050" and disable the DHT
+  -use-dht
+    	Use the DHT (default true)
+  -use-trackers
+    	Use trackers (if available)
+  -use-webseeds
+    	Use webseeds (if available)
